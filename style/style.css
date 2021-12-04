@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Karla'; 
+}
+
+.container{
+    margin-top: 150px;
+    width: 500px;
+    height: 345px;
+    margin-left: 400px;
+    border: none;
+    box-shadow: 0px 0px 10px 0px grey;
+    border-radius: 10px;
+    font-family: 'Karla';
+}
+
+.boxarriba{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    align-content: space-around;
+}
+.boxarriba h1{
+    color:hsl(179, 62%, 43%);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Karla';
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 17px;
+  
+}
+.boxarriba h3{
+    color:hsl(71, 73%, 54%);
+    font-size: 13.5px;
+    font-weight: bold;
+    font-family: 'Karla';
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+.boxarriba .gain{
+    color:hsl(218, 22%, 67%);
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Karla';
+    padding-bottom: 4px;
+    padding-left: 30px;
+}
+.boxarriba .perfect{
+    color:hsl(218, 22%, 67%);
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Karla';
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+ .abajo{
+     display: flex;
+     align-content: space-between;
+ }
+ .boxizq{
+     background-color:  hsl(179, 62%, 43%);
+     width: 100%;
+     height: 184px;
+     border-radius: 0px 0px 0px 10px;
+     margin-top: 15px;
+     padding: 30px;
+ }
+ .boxdere{
+     background-color:  hsl(179, 52%, 50%);
+     width: 100%;
+     border-radius: 0px 0px 10px 0px;
+     margin-top: 15px;
+     padding: 30px;
+     height: 184px;
+ }
+ .boxizq h3{
+     color: white;
+     font-size: 14px;
+     padding-bottom: 10px;
+ }
+ .boxizq .price h1{
+     color:white;
+     font-size: 25px;
+ }
+ .boxizq .price p{
+    color: hsl(217, 69%, 87%);
+    font-size: 12px;
+    position: relative;
+    left: 9px;
+}
+.boxizq .price{
+    display: flex;
+    align-items: center;
+    align-content: space-between
+}
+.boxizq .full{
+    color: rgb(238, 238, 238);
+    font-size: 12px;
+    padding-top: 3px;
+    padding-bottom: 20px;
+}
+.boxizq button{
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    width: 180px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Karla';
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+    box-shadow: 0px 2px 6px 0px  grey;
+}
+
+.boxdere h3{
+    color: white;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+ .boxdere p{
+     color:  hsl(216, 8%, 88%);
+     font-size: 12px;
+     text-align: left;
+ }
